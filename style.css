@@ -1,0 +1,97 @@
+/* reset margin, padding */
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.red {
+    border: 1px solid red
+}
+
+.green {
+    border: 1px solid green
+}
+
+.banner {
+    background: url('./banner.jpg') center center no-repeat;
+    height: 820px;
+    padding: 20px;
+}
+
+.about-sign-in {
+    height: 79px;
+    width: 100%;
+    text-align: right;
+    margin-top: 30px;
+}
+
+.about,
+.sign-in {
+    text-decoration: none;
+    display: inline-block;
+    padding: 7px 25px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.sign-in {
+    margin-right: 120px;
+    margin-left: 10px;
+    border: 2px solid green;
+    border-radius: 20px;
+    color: green;
+    padding: 12px;
+}
+
+.logo {
+    background: url('./hapoERP.png') center center no-repeat;
+    height: 80px;
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+
+
+
+.dongchu {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.start {
+    text-align: center;
+}
+
+button {
+    border: 1px solid yellowgreen;
+    padding: 7px 15px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.right,
+.center,
+.left {
+    width: 33%;
+    display: inline-block;
+    text-align: center !important;
+
+}
+
+span {
+    display: block;
+    font-size: 35px;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+}
+
+.dongchu span {
+    font-size: 18px;
+}
